@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    border: 2px solid black;
+    padding: 20px;
+    width: 420px;             
+    border-radius: 10px;   
+    background-color: blue
+}
+
+#display {
+    width: 100%;
+    height: 60px;              
+    margin-bottom: 15px;
+    text-align: right;
+    font-size: 24px;         
+    padding: 5px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;                 
+}
+
+.buttons button {
+    flex: 1 0 22%;             
+    height: 60px;             
+    font-size: 20px;          
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.equals {
+    background-color: orange;
+    color: white;
+    grid-row: span 2;
+}
